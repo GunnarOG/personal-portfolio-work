@@ -1,11 +1,10 @@
+import { Link } from 'react-router'
 
 export default function Navigation() {
-  return(
-  <nav>
-    <a href="/">Home</a>
-    <a href="/">Projects</a>
-
-  </nav>
+  return (
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/projects">Projects</Link>
+    </nav>
   )
 }
-
