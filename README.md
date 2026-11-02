@@ -15,6 +15,7 @@ Changes to source files appear automatically. Press Ctrl+C to stop the server.
 - `npm run build`: check TypeScript and create the production site in `dist/`.
 - `npm run lint`: check code with Oxlint.
 - `npm run preview`: serve the production build locally after building.
+- `npm.cmd test`: will watch for changes and rerun tests
 
 ## Project structure
 
