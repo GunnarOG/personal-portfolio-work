@@ -20,3 +20,7 @@ h1 {
   letter-spacing: -0.05em;
   line-height: 1.05;
 }
+
+.intro {
+  max-width: 55ch;
+}

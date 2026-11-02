@@ -1,13 +1,14 @@
-import './App.css'
+import "./App.css";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Navigation from "./components/Navigation";
 
-function App() {
+export default function App() {
   return (
-    <main className="portfolio">
-      <p className="eyebrow">Personal portfolio</p>
-      <h1>A place for my work.</h1>
-      <p>Portfolio coming soon.</p>
-    </main>
-  )
+    <>
+      <Navigation />
+      <Home />
+      <Projects />
+    </>
+  );
 }
-
-export default App
