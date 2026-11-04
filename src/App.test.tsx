@@ -38,6 +38,12 @@ describe('portfolio navigation', () => {
     })).toBeInTheDocument()
   })
 
+  it('visiting an unknown URL shows a Page not found message', () => {
+    renderApp('/unknown')
+
+   expect(screen.getByRole('heading', {name: 'Page not found'})).toBeInTheDocument()
+  })
+
   it('navigates between pages while keeping navigation available', async () => {
     const user = userEvent.setup()
     renderApp()

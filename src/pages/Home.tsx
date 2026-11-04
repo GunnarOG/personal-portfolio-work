@@ -1,4 +1,4 @@
-function Home() {
+export default function Home() {
   return (
     <main className="portfolio">
       <p className="eyebrow">Fullstack Developer</p>
@@ -11,4 +11,4 @@ function Home() {
   )
 }
 
-export default Home
+
